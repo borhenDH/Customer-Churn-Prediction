@@ -26,16 +26,18 @@ In this project, a bank's customer data is analyzed to predict whether a custome
 ## Dataset
 
 The dataset contains information about customers who have left the bank and those who have stayed. It includes features such as:
+- `customer_id`
 - `credit_score`
+- `country`
 - `gender`
 - `age`
 - `tenure`
 - `balance`
-- `num_of_products`
-- `has_credit_card`
-- `is_active_member`
+- `products_number`
+- `credit_card`
+- `active_member`
 - `estimated_salary`
-- `is_left` (target variable: whether the customer churned or not)
+- `churn` (target variable: whether the customer churned or not)
 
 ## Models and Results
 
